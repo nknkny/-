@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ピアノ発表会プログラム</title>
+    <style>
+        /* ベースのスタイル */
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #f5f5f5;
+            text-align: center;
+        }
+
+        /* ヘッダーのスタイル */
+        header {
+            background-image: url('brillante.png');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 0;
+            color: #fff;
+            position: relative;
+        }
+
+        .header-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.9);
+            color: #f8e3a3;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            color: #ddd;
+        }
+
+        /* スプレッドシートのスタイル */
+        .spreadsheet-wrapper {
+            width: 100%;
+            max-width: 1800px;
+            margin: 60px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .spreadsheet-wrapper iframe {
+            width: 95%;
+            height: 250vh;
+            min-height: 1600px;
+            border: 8px solid #f8e3a3;
+            box-shadow: 0 0 35px rgba(255, 223, 100, 0.7);
+        }
+
+        /* フッターのスタイル */
+        footer {
+            background-color: #222;
+            padding: 20px 0;
+            font-size: 1.3em;
+            color: #f8e3a3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-overlay">
+            <h1>🎹 Little. Chopin & brillante 🎶</h1>
+            <p>3月29日 | 下北文化会館 | 開場 12:50 | 開演 13:00 | 大ホール</p>
+        </div>
+    </header>
+    <main>
+        <section class="spreadsheet-wrapper">
+            <iframe id="spreadsheetFrame" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTgIUBiUJZauYJc1J3iBbWyFE6_jcFNuvlvjhP9RjTIvylu5fF1IulLo3z3aIi4yhmIoWfv-2eE3dO3/pubhtml?widget=true&amp;headers=false" frameborder="0"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ピアノ教室 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
